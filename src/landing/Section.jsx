@@ -4,7 +4,7 @@ import {FaGooglePlay} from 'react-icons/fa'
 
 const FirstSection = () => {
     return (
-        <section className='grid grid-cols-12 gap-x-10 bg-white lg:px-[15%] md:px-[5%] px-[15%] p-20'>
+        <section className='grid grid-cols-12 gap-x-10 bg-white lg:px-[15%] md:px-[5%]'>
             <div className='col-span-12 mb-20'>
                 <p className="text-center text-[#2b2350] text-[48px] leading-[45px] font-bold">Why small business owners<br/> Love SaaS<span className="font-light">pik</span></p>
             </div>
@@ -32,7 +32,7 @@ const FirstSection = () => {
 
 const SecondSection = () => {
     return (
-        <section className='grid grid-cols-12 gap-x-10 bg-[#faf9ff] lg:px-[15%] md:px-[5%] px-[10%] p-20'>
+        <section className='grid grid-cols-12 gap-x-10 bg-[#faf9ff] lg:px-[15%] md:px-[5%]'>
             <section className='col-span-12 mb-20'>
                 <p className="text-center text-[#2b2350] text-[45px] sm:text-[30px] leading-[50px] font-bold">Use your android or ios device <br className='hidden lg:block md:block'/>to manage everything.</p>
             </section>
@@ -73,9 +73,9 @@ const SecondSection = () => {
 
 const ThirdSection = () => {
     return (
-        <section className='grid grid-cols-12 gap-x-10 bg-[#fff] lg:px-[15%] md:px-[5%] px-[15%] p-20'>
+        <section className='grid grid-cols-12 gap-x-10 bg-[#fff] lg:px-[15%] md:px-[5%]'>
             <div className='lg:col-span-6 md:col-span-6 col-span-12 flex flex-col place-content-center '>
-                <div className='pr-20'>
+                <div className='lg:pr-20 md:pr-20'>
                     <h2 className='text-[28px] font-bold leading-[40px] text-[#2b2350] '>Super clean user <br/> interface for easier use.</h2>
                     <p className='text-[16px] py-5 leading-7 text-justify'>Lost the plot cracking goal give us a bell is bog horse play knackered lemon squeezy, cup of char cack bleeder matie boy he lost his bottle.!</p>
                     <ul>
@@ -99,7 +99,7 @@ const ThirdSection = () => {
 
 const FourthSection = () => {
     return (
-        <section className='grid grid-cols-12 gap-x-10 bg-[#fff] lg:px-[15%] md:px-[5%] px-[15%] p-20'>
+        <section className='grid grid-cols-12 gap-x-10 bg-[#fff] lg:px-[15%] md:px-[5%]'>
             <div className='lg:col-span-7 md:col-span-7 col-span-12  relative h-auto'>
                 <img alt="saas" src={require("../assets/images/29.png")} className="mx-auto"/>
                 <img alt="saas" src={require("../assets/images/28.png")} className="absolute top-1/2"/>
@@ -123,7 +123,7 @@ const FourthSection = () => {
 
 const FifthSection = () => {
     return (
-        <section className='grid grid-cols-12 gap-x-10 bg-[#6610f2] lg:px-[15%] md:px-[5%] px-[15%] p-20'>
+        <section className='grid grid-cols-12 gap-x-10 bg-[#6610f2] lg:px-[15%] md:px-[5%]'>
             <div className='col-span-12 flex sm:flex-col xs:flex-col lg:justify-between md:justify-between lg:place-items-center md:place-items-center '>
                 <div>
                     <h1 className="text-[54px] sm:text-[40px] xs:text-[40px] text-white leading-[72px] sm:leading-[52px] xs:leading-[52px] font-bold">Start managing your <br className="hidden lg:block md:block"/>SaaSpik. bettet</h1>
@@ -141,7 +141,7 @@ const FifthSection = () => {
 
 const SixthSection = () => {
     return (
-        <section className='grid grid-cols-12 gap-x-10 bg-[#fff] lg:px-[15%] md:px-[5%] px-[15%] p-20'>
+        <section className='grid grid-cols-12 gap-x-10 bg-[#fff] lg:px-[15%] md:px-[5%]'>
             
             <div className='lg:col-span-5 md:col-span-5 col-span-12 sm:mt-20 xs:mt-20 flex flex-col place-content-center'>
                 <div className='pr-20'>
@@ -165,7 +165,7 @@ const SixthSection = () => {
 
 const SeventhSection = () => {
     return (
-        <section className='grid grid-cols-12 gap-x-10 bg-[#fff] lg:px-[15%] md:px-[5%] px-[15%] p-20'>
+        <section className='grid grid-cols-12 gap-x-10 bg-[#fff] lg:px-[15%] md:px-[5%]'>
             <div className='col-span-12 mb-20'>
                 <h1 className='text-center text-[#2b2350] text-[32px] sm:text-[30px] font-bold'>Saw likeness from years bring <br/>fifth from, and every life.</h1>
             </div>

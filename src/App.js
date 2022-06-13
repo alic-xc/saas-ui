@@ -7,7 +7,7 @@ import Section from './landing/Section';
 function App() {
   return (
     <BaseLayout>
-        <div className="bg-[#7052fb] lg:px-[15%] md:px-[5%] px-[15%] min-h-screen">
+        <div className="bg-[#7052fb] lg:px-[15%] md:px-[5%] px-[5%] min-h-screen">
           <Header />
           <Slider />
         </div>
