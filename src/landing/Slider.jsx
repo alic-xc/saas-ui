@@ -1,5 +1,3 @@
-import mobileImage from '../assets/images/mobile.png'
-
 
 const Slider = () => {
     return (
@@ -19,7 +17,7 @@ const Slider = () => {
                 </div>
             </div>
             <div className='lg:basis-1/2 md:basis-1/2 basis-[100%] flex justify-end sm:justify-start mt-20'>
-                <img src={require('../assets/images/mobile.png')} className="w-[350px]" />
+                <img alt="saas" src={require('../assets/images/mobile.png')} className="w-[350px]" />
             </div>
         </section>
     )
