@@ -2,7 +2,7 @@ import BaseLayout from './landing/components/BaseLayout'
 import Header from './landing/Header';
 import Slider from './landing/Slider';
 import Section from './landing/Section';
-
+import Footer from './landing/Footer';
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
           <Slider />
         </div> 
         <Section/>
+        <Footer />
     </BaseLayout>
   );
 }

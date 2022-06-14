@@ -1,10 +1,10 @@
 import { AiOutlineRocket, AiOutlineCheckCircle, AiFillApple } from 'react-icons/ai';
 import {BsArrowRight} from 'react-icons/bs'
-import {FaGooglePlay} from 'react-icons/fa'
+import {FaGooglePlay, FaAppStore} from 'react-icons/fa'
 
 const FirstSection = () => {
     return (
-        <section className='grid grid-cols-12  bg-white lg:px-[15%] md:px-[5%]'>
+        <section className='grid grid-cols-12  bg-white lg:px-[13%] md:px-[5%] py-10 px-4'>
             <div className='col-span-12 mb-20'>
                 <p className="text-center text-[#2b2350] text-[48px] sm:text-[24px] xs:text-[24px] font-bold">Why small business owners<br className='hidden lg:block md:block' /> Love SaaS<span className="font-light">pik</span></p>
             </div>
@@ -32,9 +32,9 @@ const FirstSection = () => {
 
 const SecondSection = () => {
     return (
-        <section className='grid grid-cols-12 bg-[#faf9ff] lg:px-[15%] md:px-[5%] pt-20'>
+        <section className='grid grid-cols-12 bg-[#faf9ff] lg:px-[13%] md:px-[5%] py-10 px-5'>
             <section className='col-span-12 mb-20'>
-                <p className="text-center text-[#2b2350] text-[45px] sm:text-[24px] xs:text-[24px] leading-[50px] font-bold">Use your android or ios device <br className='hidden lg:block md:block'/>to manage everything.</p>
+                <p className="text-center text-[#2b2350] text-[45px] sm:text-[24px] xs:text-[24px] lg:leading-[50px] font-bold">Use your android or ios device <br className='hidden lg:block md:block'/>to manage everything.</p>
             </section>
             <section className='col-span-5 sm:col-span-12 xs:col-span-12 flex justify-center place-items-center'>
                 <img alt="saas" src={require('../assets/images/tablet.png')}  className='w-[400px]' />
@@ -73,9 +73,9 @@ const SecondSection = () => {
 
 const ThirdSection = () => {
     return (
-        <section className='grid grid-cols-12 bg-[#fff] lg:px-[15%] md:px-[5%]'>
-            <div className='lg:col-span-6 md:col-span-6 col-span-12 flex flex-col place-content-center '>
-                <div className='lg:pr-20 md:pr-20'>
+        <section className='grid grid-cols-12 bg-[#fff] lg:px-[13%] md:px-[5%] py-20'>
+            <div className='lg:col-span-5 md:col-span-5 col-span-12 flex flex-col place-content-center '>
+                <div className='lg:pr-5 md:pr-5 p-10'>
                     <h2 className='text-[28px] font-bold leading-[40px] text-[#2b2350] '>Super clean user <br/> interface for easier use.</h2>
                     <p className='text-[16px] py-5 leading-7 text-justify'>Lost the plot cracking goal give us a bell is bog horse play knackered lemon squeezy, cup of char cack bleeder matie boy he lost his bottle.!</p>
                     <ul>
@@ -86,10 +86,11 @@ const ThirdSection = () => {
                     <button className='p-3 px-8 text-[14px] hover:bg-[#7052fb] hover:text-white text-[#7052fb] border-[#7052fb] mt-5 rounded-full border inline-block'>View More</button>
                 </div>
             </div>
-            <div className='lg:col-span-6 md:col-span-6 col-span-12 overflow-hidden'>
-                <div className='flex'>
-                    <img alt="saas" src={require("../assets/images/27.png")} className=""/>
-                    <img alt="saas" src={require("../assets/images/26.png")} className=""/>
+            <div className='lg:col-span-7 md:col-span-7 col-span-12 overflow-hidden'>
+                <div className='flex justify-end'> 
+                    <img alt="saas" src={require("../assets/images/27.png")} className="mr-[-50px]  w-2/4"/>
+                    <img alt="saas" src={require("../assets/images/26.png")} className="w-2/4"/>
+
                 </div>
                 
             </div>
@@ -99,13 +100,13 @@ const ThirdSection = () => {
 
 const FourthSection = () => {
     return (
-        <section className='grid grid-cols-12 bg-[#fff] lg:px-[15%] md:px-[5%]'>
+        <section className='grid grid-cols-12 bg-[#fff] lg:px-[15%] md:px-[5%] py-20'>
             <div className='lg:col-span-7 md:col-span-7 col-span-12  relative h-auto'>
                 <img alt="saas" src={require("../assets/images/29.png")} className="mx-auto"/>
                 <img alt="saas" src={require("../assets/images/28.png")} className="absolute top-1/2"/>
             </div>
             <div className='lg:col-span-5 md:col-span-5 col-span-12 sm:mt-20 xs:mt-20 flex flex-col place-content-center'>
-                <div className='p-20'>
+                <div className='p-10'>
                     <h2 className='text-[28px] text-[#2b2350] font-bold leading-[40px]'>Super clean user <br/> interface for easier use.</h2>
                     <p className='text-[16px] py-5 leading-7 text-justify'>Lost the plot cracking goal give us a bell is bog horse play knackered lemon squeezy, cup of char cack bleeder matie boy he lost his bottle.!</p>
                     <ul>
@@ -123,8 +124,8 @@ const FourthSection = () => {
 
 const FifthSection = () => {
     return (
-        <section className='grid grid-cols-12 bg-[#6610f2] lg:px-[15%] md:px-[5%]'>
-            <div className='col-span-12 p-20 flex sm:flex-col xs:flex-col lg:justify-between md:justify-between lg:place-items-center md:place-items-center '>
+        <section className='grid grid-cols-12 bg-[#6610f2] lg:px-[13%] md:px-[5%]'>
+            <div className='col-span-12 p-20 xs:p-10 flex sm:flex-col xs:flex-col lg:justify-between md:justify-between lg:place-items-center md:place-items-center '>
                 <div>
                     <h1 className="text-[54px] sm:text-[40px] xs:text-[40px] text-white leading-[72px] sm:leading-[52px] xs:leading-[52px] font-bold">Start managing your <br className="hidden lg:block md:block"/>SaaSpik. bettet</h1>
                     <p className='text-white my-10'>try any products free for 30 days</p>
@@ -141,21 +142,21 @@ const FifthSection = () => {
 
 const SixthSection = () => {
     return (
-        <section className='grid grid-cols-12 bg-[#fff] lg:px-[15%] md:px-[5%]'>
+        <section className='grid grid-cols-12 bg-[#fff] lg:px-[13%] md:px-[5%] py-20'>
             
-            <div className='lg:col-span-5 md:col-span-5 col-span-12 sm:mt-20 xs:mt-20 flex flex-col place-content-center'>
-                <div className='pr-20'>
+            <div className='lg:col-span-5 md:col-span-6 col-span-12 flex flex-col place-content-center'>
+                <div className='p-10 pb-10'>
                     <h2 className='text-[28px] font-bold leading-[40px] text-[#2b2350]'>Available for your smart phone.</h2>
                     <p className='text-[16px] py-5 my-2 leading-7 text-justify text-[#797687]'>All the power of niche in your pocket. Schedule, publish and monitir your accounts with ease.</p>
-                    <div className="flex ">
-                        <button className='flex place-items-center text-[16px] bg-[#6610f2] text-white p-2 px-5 rounded-full mr-3'><FaGooglePlay className='mr-2' /> <span>Google Play</span></button>
-                        <button className='flex place-items-center text-[16px] border-2 border-[#6610f2] text-[#6610f2] p-2 px-5 rounded-full'><AiFillApple className="text-[32px] mr-2" /> <span>App Store</span></button>
+                    <div className="flex xs:flex-col ">
+                        <button className='flex place-items-center text-[16px] bg-[#6610f2] text-white p-2 px-5 rounded-full xs:rounded-[10px] mr-3'><FaGooglePlay className='text-[32px] mr-2' /> <span>Google Play</span></button>
+                        <button className='flex place-items-center text-[16px] sm:mt-3 xs:mt-3 border-2 border-[#6610f2] text-[#6610f2] p-2 px-5 rounded-full xs:rounded-[10px] mr-3'><FaAppStore className="text-[32px] mr-2" /> <span>App Store</span></button>
                     </div>
-                    </div>
+                </div>
             </div>
-            <div className='lg:col-span-7 md:col-span-7 col-span-12  relative h-auto'>
+            <div className='lg:col-span-7 md:col-span-6 col-span-12  relative h-auto'>
                 <img alt="saas" src={require("../assets/images/1.png")} className="relative z-[10000000]"/>
-                <img alt="saas" src={require("../assets/images/2.png")} className="absolute top-0 right-[21%]"/>
+                <img alt="saas" src={require("../assets/images/2.png")} className="absolute top-0 right-[21%] sm:right-[40%] xs:right-[1%]"/>
             </div>
             
         </section>
@@ -165,12 +166,12 @@ const SixthSection = () => {
 
 const SeventhSection = () => {
     return (
-        <section className='grid grid-cols-12 bg-[#fff] lg:px-[15%] md:px-[5%]'>
+        <section className='grid grid-cols-12 bg-[#fff] lg:px-[13%] md:px-[5%]'>
             <div className='col-span-12 mb-20'>
                 <h1 className='text-center text-[#2b2350] text-[32px] sm:text-[30px] font-bold'>Saw likeness from years bring <br/>fifth from, and every life.</h1>
             </div>
-            <div className="col-span-6 sm:col-span-12 xs:col-span-12">
-                <img alt="saas" src={require('../assets/images/23.jpeg')} className="rounded-[5px] w-auto" />
+            <div className="col-span-6 sm:col-span-12 xs:col-span-12 p-10">
+                <img alt="saas" src={require('../assets/images/23.jpeg')} className="rounded-[5px] w-full" />
                 <div>
                     <div className='my-3 text-[#555]'>
                         <span className='pr-5 border-r-[2px] border-[#555]'>By Admin</span>
@@ -184,8 +185,8 @@ const SeventhSection = () => {
 
                 </div>
             </div>
-            <div className="col-span-6 sm:col-span-12 xs:col-span-12">
-                <img alt="saas" src={require('../assets/images/24.jpeg')} className="rounded-[5px] w-auto" />
+            <div className="col-span-6 sm:col-span-12 xs:col-span-12 p-10">
+                <img alt="saas" src={require('../assets/images/24.jpeg')} className="rounded-[5px] w-full" />
                 <div>
                     <div className='my-3 text-[#555]'>
                         <span className='pr-5 border-r-[2px] border-[#555]'>By Admin</span>
