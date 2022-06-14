@@ -1,4 +1,4 @@
-import { AiOutlineRocket, AiOutlineCheckCircle, AiFillApple } from 'react-icons/ai';
+import { AiOutlineRocket, AiOutlineCheckCircle } from 'react-icons/ai';
 import {BsArrowRight} from 'react-icons/bs'
 import {FaGooglePlay, FaAppStore} from 'react-icons/fa'
 
