@@ -3,9 +3,11 @@ import Header from './landing/Header';
 import Slider from './landing/Slider';
 import Section from './landing/Section';
 import Footer from './landing/Footer';
-
+import {Drawer} from './landing/Header'
 function App() {
   return (
+    <>
+    <Drawer />
     <BaseLayout>
         <div className="bg-[#7052fb] lg:px-[15%] md:px-[5%] px-[5%] min-h-screen">
           <Header />
@@ -14,6 +16,7 @@ function App() {
         <Section/>
         <Footer />
     </BaseLayout>
+    </>
   );
 }
 
